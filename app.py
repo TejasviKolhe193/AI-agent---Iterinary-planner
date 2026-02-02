@@ -234,15 +234,6 @@ def main():
         
         st.divider()
         
-        st.markdown("""
-        ### 📋 How it works:
-        1. Enter your travel details
-        2. AI searches for real-time info
-        3. Get a personalized itinerary
-        
-        ### 🔑 API Key:
-        Get your free Groq API key at [console.groq.com](https://console.groq.com)
-        """)
     
     # Main content area
     col1, col2 = st.columns([1, 1])
@@ -361,3 +352,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
